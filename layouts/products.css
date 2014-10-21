@@ -1,0 +1,22 @@
+.read-more-button {
+        background: #1c9a56;
+        color: #fff;
+        display: block;
+        float: right;
+        padding: 10px;
+        text-align: center;
+        width: 200px;
+}
+
+.read-more-button:hover {
+        background: #177c46;
+        color: #fff;
+}
+
+.read-more-button:after {
+    padding: 0 10px;
+    font-family: "Fontawesome";
+    font-size: 16px;
+    color: #fff;
+    content:"\f0da";
+}

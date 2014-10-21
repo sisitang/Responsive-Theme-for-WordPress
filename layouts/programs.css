@@ -1,0 +1,40 @@
+.form_area {
+        border: 1px solid red;
+        background: #eaeaea;
+        padding: 10px;
+}
+
+.fscf-div-form div {
+        margin: 10px 0;
+}
+.fscf-required-indicator {
+        color: red;
+}
+
+.fscf-div-captcha-m {
+        overflow: hidden;
+}
+
+.fscf-div-captcha-m img,
+.fscf-div-captcha-m div {
+        float: left;
+        margin-right: 10px;
+}
+
+.fscf-div-submit {
+        border-top: 1px solid #ccc;
+        padding: 10px;
+        text-align: center;
+}
+
+.fscf-button-submit {
+        background: #1c9a56;
+        border: none;
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        height: 50px;
+        width: 50%;
+}

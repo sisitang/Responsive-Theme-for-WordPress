@@ -1,0 +1,87 @@
+.menu-about-us-container, 
+.menu-sidebar-container {
+        margin-bottom: 30px;
+}
+
+.menu-about-us-container {
+        
+}
+
+.menu-about-us-container ul,
+.menu-sidebar-container ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+}
+
+.menu-about-us-container ul li a,
+.menu-sidebar-container ul li a {
+        color: #333;
+        display: block;
+        font-size: 16px;
+        padding: 10px 5px;
+}
+
+.menu-about-us-container ul li:last-child a,
+.menu-sidebar-container ul li:last-child a {
+        border-bottom: none;
+}
+
+.menu-about-us-container ul li a:before,
+.menu-sidebar-container ul li a:before {
+    padding: 0 10px;
+    font-family: "Fontawesome";
+    font-size: 16px;
+    color: #ccc;
+    content:"\f138";
+}
+
+
+
+.menu-about-us-container ul li a:hover,
+.menu-sidebar-container ul li a:hover {
+    color: #1c9a56;
+}
+
+.report-section {
+        text-align: left;
+}
+
+.report-body {
+        display: inline-block;
+        padding: 0 5px;
+        width: 48%;
+}
+
+.report-body h2 {
+        color: #aaa;
+        padding: 5px 0;
+}
+
+.staff-wrapper {
+        background: #eaeaea;
+        overflow: hidden;
+}
+
+.staff-description, 
+.staff-section {
+        border: none !important;
+}
+
+.staff-section {
+        display: inline-block;
+        vertical-align: top;
+        width: 45%;
+}
+
+.staff-section img {
+        max-width: 100px;
+        width: 30%;
+}
+
+@media screen and (max-width: 550px){
+    .staff-section {
+            float: none;
+            width: 100%;
+    }        
+}

@@ -1,0 +1,19 @@
+.donors {
+        overflow: hidden;
+}
+
+.donors img {
+        float: left;
+        height: auto;
+        margin-right: 20px;
+        width: 50%;
+}
+
+.donors h2 {
+        color: #1c9a56;
+}
+
+.donors div {
+        margin-top: 15px 0;
+}
+
